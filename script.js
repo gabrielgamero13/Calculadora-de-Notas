@@ -15,10 +15,12 @@ function calcularMedia(){
     if (media >= 7){
         situacao ="APROVADO"
     }
-    if (media >= 5){
+     else if (media >= 5){
         situacao ="RECUPERAÇÃO"
     } else {
         situacao = "REPROVADO"
     }
     const mediaFormatada = media.toFixed(1);
+
+    document.getElementById("resultado").textContent = "Media: "+mediaFormatada + "- Situação: "+ situacao;
 }
