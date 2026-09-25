@@ -3,7 +3,7 @@ function calcularMedia(){
     const textoNota2 = document.getElementById("nota2").value;
     const textoNota3 = document.getElementById("nota3").value;
 
-    if (textoNotal === "" || textoNota2 === "" || textoNota3 === "){
+    if (textoNotal === "" || textoNota2 === "" || textoNota3 === ""){
         alert("Preencha todas as notas!")
         return;
     }
